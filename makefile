@@ -12,5 +12,7 @@ semaphore.o: semaphore.c semaphore.h
 	gcc -c semaphore.c
 
 clean:
-	rm *.o
-	rm telephone
+	rm *o
+	rm control
+	rm write
+	rm story
